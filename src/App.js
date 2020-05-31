@@ -3,6 +3,7 @@ import './App.css';
 import Maman from './components/Maman';
 import Display from './components/Display';
 import Result from './components/Game';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <hr/>
       <h1> Les Conditions dans React</h1>
         <Result />
+      <hr/>
+      <h1> Affichage des images dans React</h1>
+        <Form />
     </div>
   );
 }
