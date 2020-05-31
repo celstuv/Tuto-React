@@ -6,6 +6,7 @@ import Result from './components/Game';
 import Form from './components/Form';
 import Form2 from './components/Form2';
 import Form3 from './components/Form3';
+import Form4 from './components/Form4';
 
 function App() {
   return (
@@ -25,8 +26,11 @@ function App() {
       <h1> Le CSS dans React</h1>
         <Form2 head={false}/>
       <hr/>
-      <h1> Le CSS dans React 2</h1>
+      <h1> Le CSS Style module css</h1>
         <Form3 head={false}/>
+      <hr/>
+      <h1> Le CSS Boostrap</h1>
+        <Form4/>
     </div>
   );
 }
